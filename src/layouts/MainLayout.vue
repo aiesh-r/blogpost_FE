@@ -31,7 +31,9 @@ export default {
     return {};
   },
   methods: {
-    onClickAddPost() {},
+    onClickAddPost() {
+      this.$router.push("/create");
+    },
   },
 };
 </script>

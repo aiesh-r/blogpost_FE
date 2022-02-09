@@ -33,7 +33,7 @@ export default {
         .get("http://localhost:3000/blogpost")
         .then(
           function (response) {
-            console.log("res", response);
+            // console.log("res", response);
             this.blogposts = response.data;
             // Handle success
           }.bind(this)
